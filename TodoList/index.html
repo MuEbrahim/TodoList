@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+    <!-- 
+        Created by: Muhammed ebrahim
+        email: muhammedebrahim00@gmail.com
+        phone: 01016350644
+
+
+    -->
+    <head>
+        <title>TodoList</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">     
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <meta name="description" content="TodoList application"/>
+    </head>
+    
+    <body>
+        <nav>
+            <h1>TodoList</h1>
+            <button class=".signout" name='submit' type="submit">SignOut</button>
+        </nav>
+        
+
+        <div class="container1">
+            <div class="todoInput">
+                <input type="text" name="todo" placeholder="Text"></input>
+                <button type="submit" name="submit">add</button>
+            </div>
+            <div class="todos">
+            </div>
+        </div>
+        
+        <!-- SignIn Section -->
+
+        <div class="SignIn">
+            <div class="form">
+                <h1>SignIn</h1>
+                <form class="SignInForm">
+                    <input class="email" type="email" placeholder="email">
+                    <input class="password" type="password" placeholder="passowrd">
+                    <button class="SignInbtn" type="submit" name="submit">SignIn</button>
+                </form>
+                <a class="createAcc" href="#"><p>Create an account</p></a>
+                <p>-</p>
+                <a  class="forgetMy" href="#"><p>forget my password</p></a>
+            </div>
+        </div>
+
+        <!-- SignIn Section -->
+
+
+        <!-- SignUp Section -->
+
+        <div class="SignUp">
+            <div class="form">
+                <h1>SignUp</h1>
+                <form class="SignUpForm">
+                    <input class="email1" type="email" placeholder="email">
+                    <input class="password1" type="password" placeholder="passowrd">
+                    <input class="confirmPassword" type="password" placeholder="confirm passowrd">
+                    <button class="SignUpbtn" type="submit" name="submit">SignUp</button>
+                </form>
+                <a class="haveaccount" href="#"><p>Already have an account</p></a>
+                <p>-</p>
+                <a class="forgetMy1" href="#"><p>forget my password</p></a>
+            </div>
+        </div>
+
+        <!-- SignUp Section -->
+
+
+        <!-- forget Password Section -->
+        
+        <div class="ForgetPassword">
+            <div class="form">
+                <h1>Forget my password</h1>
+                <form class="forgetPasswordForm">
+                    <input  class="email2" type="email" placeholder="email">
+                    <button class="forgetPasswordBtn" type="submit" name="submit">Reset my password</button>
+                </form>
+                <a class="haveaccount1" href="#"><p>SignIn</p></a>
+                <p>-</p>
+                <a class="createAcc1" href="#"><p>Create new account</p></a>
+            </div>
+        </div>
+
+        <!-- forget Password Section -->
+
+            <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyB7xxskxQiOnlvPDrq1fP40jm-HWJpRrw4",
+        authDomain: "todolistweb-4e2ee.firebaseapp.com",
+        databaseURL: "https://todolistweb-4e2ee.firebaseio.com",
+        projectId: "todolistweb-4e2ee",
+        storageBucket: "todolistweb-4e2ee.appspot.com",
+        messagingSenderId: "387222834194",
+        appId: "1:387222834194:web:56b0cc61b5d1376406dccb",
+        measurementId: "G-Q85HHM8ZCZ"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+
+        <script src="index.js"></script>
+    </body>
+</html>

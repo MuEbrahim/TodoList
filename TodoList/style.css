@@ -1,0 +1,249 @@
+body{
+margin: 0px;
+padding: 0px;
+height: 700px;
+}
+nav
+{
+    height: 10%;
+    padding: 1px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: poppins,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 20px;
+}
+nav h1{
+    display: inline;
+    margin-right: 10px;
+}
+nav button{
+    height: 30px;
+    width: 70px;
+    border: 0px;
+    background-color: orange;
+    color: white;
+    display: none;
+}
+.container1{
+    height: 90%;
+    margin: 2% 10% 0% 10%;
+    text-align: center;
+    /* display: none; */
+    font-family: poppins,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    /* background-color: rgb(61, 196, 201); */
+}
+.container1 .todoInput{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 1%;
+}
+.container1 .todoInput input{
+    display: inline-block;
+    width: 90%;
+    margin: 1% 5% 1% 5%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 15px;
+}
+.container1 .todoInput input:hover{
+cursor: pointer;
+opacity: .5;
+}
+.container1 .todoInput button{
+    display: inline-block;
+    width: 15%;
+    margin: 1% 5% 1% 5%;
+    padding: 10px;
+    border: 0px;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    background-color: orange;
+}
+.container1 .todoInput button:hover{
+    cursor: pointer;
+    opacity: .5;    
+    }
+.todos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+    /* border: 1px solid orange; */
+    text-align: left;
+ 
+}
+.todo{
+    width: 60%;
+    height: 7%;
+    padding: 15px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.todo input {
+    display: inline;
+    border: 0px;
+    font-size: 20px;
+    width: 80%;
+}
+.todo input:hover{
+cursor: pointer;
+opacity: .5;    
+}
+.todo button {
+    width: 4.67%;
+    height: 30px;
+    margin-right: 8px;
+    background-color: white;
+    border-radius: 50%;
+    border-width: 0px;
+    color: orange;
+    font-size: 25px;
+}
+.todo button:hover{
+    cursor: pointer;
+    opacity: .5;    
+    }
+/* SignIn Section */
+.SignIn{
+    height: 90%;
+    width: 30%;
+    margin: 15px auto;
+    padding: 15px;
+    text-align: center;
+    font-family: poppins,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    /* background-color: orange; */
+    display: none;
+}
+.SignIn .form{
+    width: 100%;
+    height: 20%; 
+
+}   
+.SignIn .form input{
+    display: inline-block;
+    width: 90%;
+    margin: 1% 5% 1% 5%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 15px;
+}
+.SignIn .form button{
+    display: inline-block;
+    width: 20%;
+    margin: 1% 5% 1% 5%;
+    padding: 10px;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    background-color: orange;
+}
+.SignIn a{
+display: inline-block;
+color: orange;
+text-decoration: none;
+}
+.SignIn p{
+    display: inline-block;
+    color: orange;
+}
+/* SignIn Section */
+
+
+/* SignUp Section */
+
+.SignUp{
+    height: 90%;
+    width: 30%;
+    margin: 15px auto;
+    padding: 15px;
+    text-align: center;
+    font-family: poppins,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    /* background-color: orange; */
+    display: none;
+}
+.SignUp .form{
+    width: 100%;
+    height: 20%; 
+
+}   
+.SignUp .form input{
+    display: inline-block;
+    width: 90%;
+    margin: 1% 5% 1% 5%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 15px;
+}
+.SignUp .form button{
+    display: inline-block;
+    width: 20%;
+    margin: 1% 5% 1% 5%;
+    padding: 10px;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    background-color: orange;
+}
+.SignUp a{
+display: inline-block;
+color: orange;
+text-decoration: none;
+}
+.SignUp p{
+    display: inline-block;
+    color: orange;
+}
+/* SignUp Section */
+
+
+/* Forget Password Section */
+
+.ForgetPassword{
+    height: 90%;
+    width: 30%;
+    margin: 15px auto;
+    padding: 15px;
+    text-align: center;
+    font-family: poppins,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    /* background-color: orange; */
+    display: none;
+}
+.ForgetPassword .form{
+    width: 100%;
+    height: 20%; 
+
+}   
+.ForgetPassword .form input{
+    display: inline-block;
+    width: 90%;
+    margin: 1% 5% 1% 5%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 15px;
+}
+.ForgetPassword .form button{
+    display: inline-block;
+    width: 40%;
+    margin: 1% 5% 1% 5%;
+    padding: 10px;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    background-color: orange;
+}
+.ForgetPassword a{
+display: inline-block;
+color: orange;
+text-decoration: none;
+}
+.ForgetPassword p{
+    display: inline-block;
+    color: orange;
+}
+
+/* Forget Password Section */
